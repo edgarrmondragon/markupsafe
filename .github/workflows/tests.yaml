@@ -1,9 +1,9 @@
 name: Tests
 on:
   push:
-    branches:
-      - main
-      - '*.x'
+    # branches:
+    #   - main
+    #   - '*.x'
     paths-ignore:
       - 'docs/**'
       - '*.md'
